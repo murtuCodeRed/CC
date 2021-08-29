@@ -41,12 +41,12 @@ int main()
 	// 	}
 	// }
 
-    for(int i=1;i<=n;i++)
-    {
-        cout<<dp[i]<<" ";
-    }
-    cout<<endl;
-    
+    // for(int i=1;i<=n;i++)
+    // {
+    //     cout<<dp[i]<<" ";
+    // }
+    // cout<<endl;
+
     while(p--)
     {
         ll p1,p2;
