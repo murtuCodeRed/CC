@@ -36,7 +36,12 @@ void solve()
             dp[i]=min(dp[i],dp[j-1]+k+clash);
         }
     }   
-    cout<<dp[n]<<endl;
+    // cout<<dp[n]<<endl;
+
+    for(i=1;i<=n;i++)
+    {
+        cout<<dp[i]<<" ";
+    }
 }
 
 int main()
