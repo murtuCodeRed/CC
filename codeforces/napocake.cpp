@@ -1,12 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-bool sortbysecdesc(const pair<int,int> &a,
-                   const pair<int,int> &b)
-{
-       return a.second>b.second;
-}
-
 void solve()
 {
     int n;
