@@ -3,7 +3,9 @@ using namespace std;
 
 int main()
 {
-	int i,j,k;
+	freopen("in.txt", "r", stdin);
+
+    int i,j,k;
 	int m,n;
 	string str;
 
@@ -22,7 +24,10 @@ int main()
             for(j=0;j<=m;j++)
             {
                 if(i+j<n && str[i+j]=='1')
-                    dist[i+j]=min(dist[i+j], dist[i]+1);
+                    {    
+                        dist[i+j]=min(dist[i+j], dist[i]+1);
+                        cout<<i<<" "<<j<<" "<<dist[i+j]<<endl;
+                    }
                     // dist[i+j]=dist[i]+1;
             }
         }
